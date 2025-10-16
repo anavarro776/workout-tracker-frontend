@@ -1,0 +1,57 @@
+.workout-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.workout-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.workout-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.workout-card p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.workout-card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.workout-card a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .workout-card {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+  }
+
+  .workout-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .workout-card p {
+    font-size: 0.85rem;
+    margin: 3px 0;
+  }
+
+  .workout-card a {
+    font-size: 0.9rem;
+    margin-top: 6px;
+  }
+}

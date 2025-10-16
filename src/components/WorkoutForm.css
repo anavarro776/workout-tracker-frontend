@@ -1,0 +1,51 @@
+.workout-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workout-form h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.workout-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #555;
+}
+
+.workout-form input,
+.workout-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.workout-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.workout-form button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.workout-form button:hover {
+  background-color: #0056b3;
+}
